@@ -1,0 +1,40 @@
+.list .list-item {
+    background-color: rgba(255,255,255,0.5);
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border: 1px dotted #7e5d3c;
+}
+
+.list .list-item .edit-buttons {
+    width: 20%;
+    text-align: center;
+    display: flex;
+}
+
+.checked-item {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.list .list-item .edit-buttons button {
+    margin-right: 1.5rem;
+    font-size: .8rem;
+    background-color: inherit;
+    border: none;
+}
+
+.list .list-item .edit-buttons button i:active {
+    color: #7A5836;
+}
+
+.list .list-item form {
+    width: 80%;
+    display: inline-block;
+}
+
+.list .list-item form input {
+    width: 100%;
+    height: 1.7rem;
+}
